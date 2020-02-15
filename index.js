@@ -1,12 +1,12 @@
 // from https://github.com/epranka/gpucomputationrender-three/blob/master/index.js
-class GPUComputationRendererVariable {
+export class GPUComputationRendererVariable {
   constructor() {
     this.renderTargets = [];
     this.dependencies = [];
   }
 }
 
-class GPUComputationRenderer {
+export class GPUComputationRenderer {
   constructor(sizeX, sizeY, renderer) {
     this.sizeX = sizeX;
     this.sizeY = sizeY;
